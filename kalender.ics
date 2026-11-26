@@ -1,0 +1,104 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Passat Wartung//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Passat Wartung
+X-WR-TIMEZONE:Europe/Berlin
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:sommerreifen@passat-wartung
+DTSTAMP:20261125T211708Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:Passat: Sommerreifen aufziehen
+DESCRIPTION:Faustregel O bis O. Profil der Winterreifen messen (ersetzen un
+ ter 4 mm) und DOT-Jahr prüfen.
+TRANSP:TRANSPARENT
+RRULE:FREQ=YEARLY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Passat: Sommerreifen aufziehen
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:service-2027@passat-wartung
+DTSTAMP:20261125T211708Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:Passat: Herbstservice (fällig bis 22.10.2027)
+DESCRIPTION:Öl + Ölfilter (fällig bis 25.11.2027)\, Bremsflüssigkeit\, 
+ Innenraum-/Pollenfilter\, Inspektion (bei flexiblem Service). DSG-Typ und 
+ DSG-Öl-Intervall klären\, Rückruf 10H5 per FIN prüfen lassen.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Passat: Herbstservice (fällig bis 22.10.2027)
+TRIGGER:-P27DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Passat: Herbstservice (fällig bis 22.10.2027)
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:winterreifen@passat-wartung
+DTSTAMP:20261125T211708Z
+DTSTART;VALUE=DATE:20271015
+DTEND;VALUE=DATE:20271016
+SUMMARY:Passat: Winterreifen aufziehen
+DESCRIPTION:Faustregel O bis O. Profil der Sommerreifen messen (ersetzen un
+ ter 3 mm). Winterreifen brauchen das Alpine-Symbol.
+TRANSP:TRANSPARENT
+RRULE:FREQ=YEARLY
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Passat: Winterreifen aufziehen
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:hu-2028@passat-wartung
+DTSTAMP:20261125T211708Z
+DTSTART;VALUE=DATE:20281001
+DTEND;VALUE=DATE:20281002
+SUMMARY:Passat: HU + Herbstservice (HU fällig 10/2028)
+DESCRIPTION:HU\, Öl + Ölfilter\, Zündkerzen (ca. 60.000 km)\, DSG-Öl (v
+ orläufig 60.000 km\, Typ klären).
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Passat: HU + Herbstservice (HU fällig 10/2028)
+TRIGGER:-P41DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Passat: HU + Herbstservice (HU fällig 10/2028)
+TRIGGER:-P13DT15H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:service-2029@passat-wartung
+DTSTAMP:20261125T211708Z
+DTSTART;VALUE=DATE:20291001
+DTEND;VALUE=DATE:20291002
+SUMMARY:Passat: Herbstservice (Luftfilter bis 12/2029)
+DESCRIPTION:Öl + Ölfilter\, Bremsflüssigkeit\, Innenraumfilter\, Luftfil
+ ter\, Inspektion. Winterreifen-Alter prüfen (ab 6 Jahren ersetzen erwäge
+ n).
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Passat: Herbstservice (Luftfilter bis 12/2029)
+TRIGGER:-P27DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Passat: Herbstservice (Luftfilter bis 12/2029)
+TRIGGER:-P6DT15H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
